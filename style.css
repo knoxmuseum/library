@@ -135,3 +135,12 @@ p a {
   margin-left: 5%;
   margin-right: 5%;
 }
+
+/* footer */
+footer
+	{
+  display: block;
+  background-color: FloralWhite;
+  color: #6698ad; 
+  text-align: center;
+  }
