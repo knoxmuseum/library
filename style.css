@@ -144,3 +144,37 @@ footer
   color: #6698ad; 
   text-align: center;
   }
+
+
+/* password page */
+ .login-box {
+      background: FloralWhite;
+	  padding: 10px;
+      border-radius: 8px;
+	  text-align: center;
+        }
+
+input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+     }
+
+button {
+    padding: 10px 20px;
+    background-color: #b7d2dd;
+    color: FloralWhite;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+button:hover {
+    background-color: #6698ad;
+     }
+
+#protected-content {
+    display: none;
+    }
