@@ -58,7 +58,7 @@
   <div id="login-form" class="login-box">
         <input type="password" id="password-input" placeholder="Password">
         <button onclick="checkPassword()">Submit</button>
-        <p id="error-msg" style="color: red;"></p>
+        <p id="error-msg" style="color: #0056b3;"></p>
     </div>
   <p>If you're lost, you can <a href="index.html">search our catalog</a> or <a href="browse.html">browse our titles</a></p>
 
@@ -71,8 +71,7 @@
     <script>
         function checkPassword() {
             const userInput = document.getElementById("password-input").value;
-            // CHANGE "mySecret123" TO YOUR DESIRED PASSWORD
-            const correctPassword = "mySecret123"; 
+            const correctPassword = "knoxknox76"; 
 
             if (userInput === correctPassword) {
                 document.getElementById("login-form").style.display = "none";
