@@ -1,4 +1,4 @@
-function myFunction() {
+function searchFunction() {
   // Declare variables
   var input, filter, ul, li, a, i, txtValue;
   input = document.getElementById('myInput');
