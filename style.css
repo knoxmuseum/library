@@ -1,0 +1,137 @@
+body {
+  background-color: FloralWhite;
+  color: Black;
+}
+
+/* nav bar :0 */
+ul.nav-bar {
+  list-style-type: none;
+  margin: o;
+  padding: 0; 
+  overflow: hidden; 
+  background-color: #b7d2dd; 
+  display: block;} 
+
+li.nav-bar {
+  float: left;}
+
+li a {
+  display: block;
+  color: #6698ad; 
+  text-align: center;
+  padding: 10; 
+  text-decoration: none;}
+
+/* headings */
+h1 {
+  color: #6698ad;}
+
+/* search bar */
+.collapsible {
+  background-color: FloralWhite;
+  color: #6698ad;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #89b1c2;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #b7d2dd;
+  color: #6698ad;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #6698ad; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+  background-color: FloralWhite;
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #6698ad; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #b7d2dd; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: #6698ad; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: FloralWhite; /* Add a hover effect to all links, except for headers */
+}
+
+
+/* stylized text blocks (cause we're getting fancy with it)*/
+div.item {
+    display:block;
+    background:#b7d2dd;
+    padding: 5;
+    margin: 30;
+    border-radius: 15px;
+    border-width: 3;
+    color: #6698ad;
+}
+
+p a {
+  color:#6698ad;}
+
+/* Collapsible textboxes (:0) */
+.collapsible {
+  background-color: #b7d2dd;
+  color: #6698ad;
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-bottom: 30px;
+  margin-left: 5%;
+  margin-right: 10%;
+  width: 90%;
+}
+
+.active, .collapsible:click {
+  background-color: #89b1c2;
+  margin-top: 30px;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #b7d2dd;
+  color: #6698ad;
+  margin-top: -30px;
+  margin-bottom: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
