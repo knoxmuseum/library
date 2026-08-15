@@ -1,9 +1,27 @@
+function hidecatalog() {
+  var x = document.getElementById("catalog");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showcatalog() {
+  var x = document.getElementById("catalog");
+  if (x.style.display === "block") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "block";
+  }
+}
+
 function searchFunction() {
   // Declare variables
   var input, filter, ul, li, a, i, txtValue;
   input = document.getElementById('myInput');
   filter = input.value.toUpperCase();
-  ul = document.getElementById("myUL");
+  ul = document.getElementById("catalog");
   li = ul.getElementsByTagName('li');
 
   // Loop through all list items, and hide those who don't match the search query
