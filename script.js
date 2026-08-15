@@ -1,3 +1,4 @@
+// Hide list of titles when search page loads 
 function hidecatalog() {
   var x = document.getElementById("catalog");
   if (x.style.display === "none") {
@@ -7,6 +8,7 @@ function hidecatalog() {
   }
 }
 
+// Show list of titles when "see titles" button is pressed 
 function showcatalog() {
   var x = document.getElementById("catalog");
   if (x.style.display === "block") {
@@ -16,15 +18,15 @@ function showcatalog() {
   }
 }
 
+// Only show items related to search bar input 
 function searchFunction() {
   // Declare variables
   var input, filter, ul, li, a, i, txtValue;
-  input = document.getElementById('myInput');
+  input = document.getElementById('searchInput');
   filter = input.value.toUpperCase();
   ul = document.getElementById("catalog");
   li = ul.getElementsByTagName('li');
 
-  // Loop through all list items, and hide those who don't match the search query
   for (i = 0; i < li.length; i++) {
     a = li[i].getElementsByTagName("a")[0];
     txtValue = a.textContent || a.innerText;
@@ -36,7 +38,7 @@ function searchFunction() {
   }
 }
 
-
+// collapsible text boxes on browse pages
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
