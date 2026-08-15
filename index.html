@@ -1,8 +1,13 @@
 <head>
   <link rel="stylesheet" type="text/css" href="style.css"></link>
   <title>Home</title>
+  <style>
+    #catalog {
+      display: none;
+    }
+  </style>
 </head>
-<body>
+<body onload="hidecatalog()">
   <ul class="nav-bar">
     <li class="nav-bar">
       <a class="Home" href="index.html">Home</a>
@@ -13,9 +18,11 @@
   
   <h1>The Knox Museum Library</h1>
  
- <input type="text" id="myInput" onkeyup="searchFunction()" placeholder="Search by title, author, or call number">
+ <input type="text" id="myInput" onclick="showcatalog" onkeyup="searchFunction()" placeholder="Search by title, author, or call number">
 
-<ul id="myUL">
+<button onclick="showcatalog()">See Titles</button>
+
+<ul id="catalog">
 <li><a href="#">So You Want a Good Museum: A Guide to the Management of Small Museums, Carl E. Guthe (AM 1 .A533 no. 17)</a></li>
 <li><a href="#">Excellence and Equity: Education and the Public Dimension of Museums, The American Association of Museums (AM 7 .E9 2008)</a></li>
 <li><a href="#">Mastering Civic Engagement: A Challenge to Museums, The American Association of Museums (AM 7 .M37 2002)</a></li>
