@@ -52,7 +52,7 @@ h1 {
   color: #6698ad;
 }
 
-#myInput {
+#searchInput {
   background-image: url('/css/searchicon.png'); /* Add a search icon to input */
   background-position: 10px 12px; /* Position the search icon */
   background-repeat: no-repeat; /* Do not repeat the icon image */
@@ -64,14 +64,14 @@ h1 {
   background-color: FloralWhite;
 }
 
-#myUL {
+#catalog {
   /* Remove default list styling */
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-#myUL li a {
+#catalog li a {
   border: 1px solid #6698ad; /* Add a border to all links */
   margin-top: -1px; /* Prevent double borders */
   background-color: #b7d2dd; /* Grey background color */
@@ -82,7 +82,7 @@ h1 {
   display: block; /* Make it into a block element to fill the whole list */
 }
 
-#myUL li a:hover:not(.header) {
+#catalog li a:hover:not(.header) {
   background-color: FloralWhite; /* Add a hover effect to all links, except for headers */
 }
 
