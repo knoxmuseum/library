@@ -3,7 +3,8 @@ body {
   color: Black;
 }
 
-/* nav bar :0 */
+
+/* nav bar */
 ul.nav-bar {
   list-style-type: none;
   margin: o;
@@ -22,9 +23,14 @@ li a {
   padding: 10; 
   text-decoration: none;}
 
+
 /* headings */
 h1 {
   color: #6698ad;}
+
+h3 {
+  color: #6698ad;}
+
 
 /* search bar */
 .collapsible {
@@ -36,12 +42,10 @@ h1 {
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
-}
+  font-size: 15px;}
 
 .active, .collapsible:hover {
-  background-color: #89b1c2;
-}
+  background-color: #89b1c2;}
 
 .content {
   padding: 0 18px;
@@ -49,8 +53,7 @@ h1 {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #b7d2dd;
-  color: #6698ad;
-}
+  color: #6698ad;}
 
 #searchInput {
   background-image: url('/css/searchicon.png'); /* Add a search icon to input */
@@ -61,33 +64,28 @@ h1 {
   padding: 12px 20px 12px 40px; /* Add some padding */
   border: 1px solid #6698ad; /* Add a grey border */
   margin-bottom: 12px; /* Add some space below the input */
-  background-color: FloralWhite;
-}
+  background-color: FloralWhite;}
 
 #catalog {
-  /* Remove default list styling */
   list-style-type: none;
   padding: 0;
-  margin: 0;
-}
+  margin: 0;}
 
 #catalog li a {
-  border: 1px solid #6698ad; /* Add a border to all links */
-  margin-top: -1px; /* Prevent double borders */
-  background-color: #b7d2dd; /* Grey background color */
-  padding: 12px; /* Add some padding */
-  text-decoration: none; /* Remove default text underline */
-  font-size: 18px; /* Increase the font-size */
-  color: #6698ad; /* Add a black text color */
-  display: block; /* Make it into a block element to fill the whole list */
-}
+  border: 1px solid #6698ad;
+  margin-top: -1px; 
+  background-color: #b7d2dd; 
+  padding: 12px; 
+  text-decoration: none; 
+  font-size: 18px; 
+  color: #6698ad; 
+  display: block;}
 
 #catalog li a:hover:not(.header) {
-  background-color: FloralWhite; /* Add a hover effect to all links, except for headers */
-}
+  background-color: FloralWhite;}
 
 
-/* stylized text blocks (cause we're getting fancy with it)*/
+/* Text blocks*/
 div.item {
     display:block;
     background:#b7d2dd;
@@ -95,13 +93,13 @@ div.item {
     margin: 30;
     border-radius: 15px;
     border-width: 3;
-    color: #6698ad;
-}
+    color: #6698ad;}
 
 p a {
   color:#6698ad;}
 
-/* Collapsible textboxes (:0) */
+
+/* Collapsible textboxes on browse pages */
 .collapsible {
   background-color: #b7d2dd;
   color: #6698ad;
@@ -113,15 +111,13 @@ p a {
   margin-bottom: 30px;
   margin-left: 5%;
   margin-right: 10%;
-  width: 90%;
-}
+  width: 90%;}
 
 .active, .collapsible:click {
   background-color: #89b1c2;
   margin-top: 30px;
   margin-left: 5%;
-  margin-right: 10%;
-}
+  margin-right: 10%;}
 
 .content {
   padding: 0 18px;
@@ -133,8 +129,8 @@ p a {
   margin-top: -30px;
   margin-bottom: 30px;
   margin-left: 5%;
-  margin-right: 5%;
-}
+  margin-right: 5%;}
+
 
 /* footer */
 footer
@@ -142,8 +138,7 @@ footer
   display: block;
   background-color: FloralWhite;
   color: #6698ad; 
-  text-align: center;
-  }
+  text-align: center;}
 
 
 /* password page */
@@ -151,16 +146,14 @@ footer
       background: FloralWhite;
 	  padding: 10px;
       border-radius: 8px;
-	  text-align: center;
-        }
+	  text-align: center;}
 
 input[type="password"] {
     width: 80%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
-    border-radius: 4px;
-     }
+    border-radius: 4px;}
 
 button {
     padding: 10px 20px;
@@ -168,13 +161,10 @@ button {
     color: FloralWhite;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
-    }
+    cursor: pointer;}
 
 button:hover {
-    background-color: #6698ad;
-     }
+    background-color: #6698ad;}
 
 #protected-content {
-    display: none;
-    }
+    display: none;} 
